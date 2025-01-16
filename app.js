@@ -21,7 +21,7 @@ app.set('view engine', 'jade');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(cors({
-  origin:["http://localhost:3000","http://localhost:3001"],
+  origin:["http://localhost:3000","https://blog-client-34ff.onrender.com"],
   credentials:true,
   methods:["GET","POST","PUT","DELETE"]
 }))
